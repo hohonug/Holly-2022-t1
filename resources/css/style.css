@@ -13,7 +13,10 @@ font-family: 'Work Sans', sans-serif;
     line-height: 2;
 }
 
-img{max-width: 100%;}
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 /* -------------------- HEADINGS AND TYPE */
 
@@ -50,6 +53,11 @@ img{max-width: 100%;}
 @media screen and (min-width: 800px) {
 
     .grid {
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+    }
+
+    .grid-3 {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
