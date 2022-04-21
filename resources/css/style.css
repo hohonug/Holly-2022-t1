@@ -57,6 +57,28 @@ h3 {
 
 /* -------------------- NAVIGATION */
 
+.navigation {
+    background-color: lightblue;
+}
+
+.main-nav {
+list-style: none;
+padding: 0;
+}
+
+.main-nav li {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.main-nav a {
+    color: darksalmon;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
