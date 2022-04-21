@@ -79,6 +79,13 @@ padding: 0;
 
 }
 
+@media screen and (min-width: 800px) {
+     .main-nav{
+         display: flex;
+         justify-content: space-between;
+     }
+}
+
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
