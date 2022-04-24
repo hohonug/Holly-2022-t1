@@ -9,7 +9,7 @@
 body {
     background-color: white;
     font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     line-height: 2;
 }
 
@@ -57,13 +57,24 @@ h3 {
 
 /* -------------------- NAVIGATION */
 
+.nav-prompt {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 .navigation {
     background-color: lightblue;
 }
 
 .main-nav {
-list-style: none;
-padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .main-nav li {
@@ -78,6 +89,27 @@ padding: 0;
     text-decoration: none;
 
 }
+
+/* this is for navigation for mobile view only */
+
+@media screen and (max-width: 800px)  {
+    .nav-inner {
+        max-height: 0;
+        overflow: hidden;
+        padding-top: 0;
+        padding-bottom: 0;
+        overflow: hidden;
+        }
+
+    .nav-inner.open {
+        max-height: 100vh;
+    }
+}
+
+
+/* this is to hide navigation on desktop */
+
+
 
 @media screen and (min-width: 800px) {
     
@@ -108,5 +140,4 @@ padding: 0;
     .grid-3 {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
 }
