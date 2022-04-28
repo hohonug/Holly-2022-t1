@@ -18,6 +18,10 @@ img{
     height: auto;
 }
 
+a {
+    color: coral;
+}
+
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
